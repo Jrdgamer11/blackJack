@@ -1,0 +1,66 @@
+<!DOCTYPE html> 
+<html>     
+    <head>         
+        <title>Blackjack!</title>         
+        <link rel="icon" type="image/x-icon" href="favicon.png">     
+    </head>     
+    <body>         
+        <h1>Black Jack in Java Script!</h1>         
+        <h3>Created by: Jacob Dermody</h3>         
+        <p>Dealer hits on 16 and stands on 17. PRESS SAVE BEFORE YOU LEAVE</p>         
+        <p id="money">$1000</p>         
+        <h4 id="dtotal">Dealer:</h4>
+        <div style="display: inline-block; border: 4px; border-color: black; border-style: solid;  margin-right: 50px;">
+            <h2 style="display: inline-block;  margin: 10px;" id="d1">1</h2>
+        </div>
+        <div style="display: inline-block;  border: 4px; border-color: black; border-style: solid; margin-right: 50px;">
+            <h2 style="display: inline-block; margin: 10px;" id="d2">-</h2>
+        </div>
+        <div id="div3" style="display: inline-block;  border: 4px; border-color: black; border-style: solid; margin-right: 50px;">
+            <h2 style="display: inline-block; margin: 10px;" id="d3">3</h2>
+        </div>
+        <div id="div4" style="display: inline-block;  border: 4px; border-color: black; border-style: solid; margin-right: 50px;">
+            <h2 style="display: inline-block; margin: 10px;" id="d4">4</h2>
+        </div>
+        <div id="div5" style="display: inline-block;  border: 4px; border-color: black; border-style: solid; margin-right: 50px;">
+            <h2 style="display: inline-block; margin: 10px;" id="d5">5</h2>
+        </div>         
+        <h4 id="ptotal">You:</h4>
+        <div style="display: inline-block; border: 4px; border-color: black; border-style: solid;  margin-right: 50px;">
+            <h2 style="display: inline-block;  margin: 10px;" id="p1">1</h2>
+        </div>
+        <div style="display: inline-block;  border: 4px; border-color: black; border-style: solid; margin-right: 50px;">
+            <h2 style="display: inline-block; margin: 10px;" id="p2">-</h2>
+        </div>
+        <div id="piv3" style="display: inline-block;  border: 4px; border-color: black; border-style: solid; margin-right: 50px;">
+            <h2 style="display: inline-block; margin: 10px;" id="p3">3</h2>
+        </div>
+        <div id="piv4" style="display: inline-block;  border: 4px; border-color: black; border-style: solid; margin-right: 50px;">
+            <h2 style="display: inline-block; margin: 10px;" id="p4">4</h2>
+        </div>
+        <div id="piv5" style="display: inline-block;  border: 4px; border-color: black; border-style: solid; margin-right: 50px;">
+            <h2 style="display: inline-block; margin: 10px;" id="p5">5</h2>
+        </div>         
+        <br>         
+        <button style="display: inline-block; margin-top: 20px;" onmousedown="b1()">Bet $1</button>         
+        <button style="display: inline-block; margin-top: 20px;" onmousedown="b5()">Bet $5</button>         
+        <button style="display: inline-block; margin-top: 20px;" onmousedown="b10()">Bet $10</button>         
+        <button style="display: inline-block; margin-top: 20px;" onmousedown="b50()">Bet $50</button>         
+        <button style="display: inline-block; margin-top: 20px;" onmousedown="b100()">Bet $100</button>         
+        <button style="display: inline-block; margin-top: 20px;" onmousedown="b500()">Bet $500</button>         
+        <button style="display: inline-block; margin-top: 20px;" onmousedown="b1000()">Bet $1000</button>         
+        <button style="display: inline-block; margin-top: 20px;" onmousedown="allin()">ALL IN</button>         
+        <button onmousedown="start()" style="color: green;" id="startB">START</button>         
+        <br>         
+        <button style="margin-top: 10px; color: green;" onmousedown="stand()">Stand</button>         
+        <button style="margin-top: 10px; color: red;" onmousedown="hit()">Hit</button>         
+        <p style="bottom: 100%;">How to play:</p>         
+        <p style="bottom: 100%;">Its like normal black jack but with a few changes. Every card is just a number and an ace is a *. If there is no card, it is represented by a -. Max of 5 cards</p>         
+        <button onclick="localStorage.setItem('money', 5); location.reload()">Reset money</button>         
+        <button onmousedown="save()" style="color: green;">SAVE</button>         
+        <p style="position: sticky; bottom: 0%; margin-right: 250px; opacity: 0.5;">©️ Jacob Dermody 2025 | Full release version: 1.0 | Report bugs to Jacob D</p>     
+    </body>     
+    <script src="main.js">
+
+    </script> 
+    </html>
