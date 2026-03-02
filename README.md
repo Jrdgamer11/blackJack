@@ -30,7 +30,7 @@ Follow these instructions to make your version look better.
 
 # Updates:
 YOUR DOWNLOAD WILL NOT AUTO UPDATE.
-The only thing that will auto update is the only website.
+The only thing that will auto update is the online website.
 
 1.0 - Full release
 
