@@ -17,16 +17,16 @@ I have others too!
 1. Put all downloaded files into a new folder and name it "bjRoot".
 2. Click on "index.html" ONCE.
 3. Right click on it then select "show more options" >> "Send to" >> "Desktop".
-4. Go to your desktop and click on the title of the shortcut
-5. Rename it to "BlackJack" (or whatever you want)
+4. Go to your desktop and click on the title of the shortcut.
+5. Rename it to "BlackJack" (or whatever you want).
 6. Your done!
 
 # Optional instructions:
 Follow these instructions to make your version look better.
-1. Select the shortcut created in the last steps on your desktop
-2. Select "Properties" >> "Change icon" >> "Browse"
-3. Find your "bjRoot" folder >> "favicon.ico"
-4. Done!
+1. Select the shortcut created in the last steps on your desktop.
+2. Select "Properties" >> "Change icon" >> "Browse".
+3. Find your "bjRoot" folder >> "favicon.ico".
+4. Your done!
 
 # Updates:
 YOUR DOWNLOAD WILL NOT AUTO UPDATE.
